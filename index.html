@@ -1,0 +1,104 @@
+Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sashmitha M | Cloud Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1 class="logo">Sashmitha M</h1>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Hi, I'm <span>Sashmitha</span></h2>
+      <p>A Cloud Engineer & Web Developer from Tiruppur</p>
+      <a href="#contact" class="btn">Get in Touch</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I'm Sashmitha M from Tiruppur, a passionate Cloud Engineer with expertise in 
+      cloud technologies, web development, and scalable application deployment. 
+      I enjoy designing efficient cloud solutions while also building modern and 
+      user-friendly web applications.
+    </p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-list">
+      <div class="skill">AWS & Cloud Computing</div>
+      <div class="skill">Docker & Kubernetes</div>
+      <div class="skill">CI/CD Pipelines</div>
+      <div class="skill">Linux & Networking</div>
+      <div class="skill">JavaScript, HTML, CSS</div>
+      <div class="skill">React.js & Node.js</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-list">
+      <div class="project-card">
+        <h3>1. Cloud Deployment Automation</h3>
+        <p>
+          Automated deployment of a web application on AWS using Terraform and Jenkins. 
+          Reduced deployment time by 40%.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>2. Real-time Chat Application</h3>
+        <p>
+          Built a Node.js & Socket.io chat app deployed on AWS EC2 with secure authentication 
+          and auto-scaling.
+        </p>
+      </div>
+      <div class="project-card">
+        <h3>3. Portfolio Website</h3>
+        <p>
+          Designed and developed a responsive portfolio website showcasing projects, skills, 
+          and interactive contact form.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="tel" id="phone" placeholder="Your Phone Number" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="formMessage"></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Sashmitha M | Cloud Engineer | Tiruppur</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
